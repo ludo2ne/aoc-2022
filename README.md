@@ -8,3 +8,5 @@
 * Day 3: Rucksack Reorganization
   * split row and find common char
   * group of 3 rows and find common char
+* Day 4: Camp Cleanup
+  * range include in another

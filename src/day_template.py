@@ -1,13 +1,15 @@
 import os
 
-example = """"""
+example = """paste_here"""
 
 
 def part1(text):
+    lines = text.splitlines()
     return None
 
 
 def part2(text):
+    lines = text.splitlines()
     return None
 
 
