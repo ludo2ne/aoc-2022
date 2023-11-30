@@ -18,8 +18,7 @@ def part1(text):
         a, b = int(e1.split("-")[0]), int(e1.split("-")[1])
         c, d = int(e2.split("-")[0]), int(e2.split("-")[1])
 
-        if (a <= c and b >= d) or (a >= c and b <= d):
-            res += 1
+        res += (a <= c and b >= d) or (a >= c and b <= d)
 
     return res
 
@@ -31,8 +30,7 @@ def part2(text):
     for line in lines:
         a, b, c, d = map(int, re.findall(r"\d+", line))
 
-        if b < c or a > d:
-            res -= 1
+        res -= b < c or a > d
 
     return res
 
